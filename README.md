@@ -1,4 +1,3 @@
-Gen_AI_LangChain
 This repository contains my learning journey on creating LLM applications using LangChain.
 
 It uses the Gemini-2.5-Flash model, with an API key available under the free tier from Google AI Studio.
