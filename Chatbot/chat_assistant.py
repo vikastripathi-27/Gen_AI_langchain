@@ -24,7 +24,7 @@ chat_details = []
 with open('chat_history.txt') as f:
     chat_details.extend(f.readlines())
 
-print("Welcome to the Sports Chatbot! Which sport are you looking for?")
+print("Welcome to the Sports Chatbot! Which are you looking for?")
       
 while True:
     user_query = input("Vikas: ")
