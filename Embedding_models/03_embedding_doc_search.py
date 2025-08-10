@@ -38,5 +38,9 @@ index_score = list(enumerate(matching))
 index, matching_value = sorted(index_score, key=lambda x:x[1])[-1]
 
 print("user query - ", user_query)
-print(stadium_data_doc[index])  # Print the document with the highest match score
-print("Similarity Score:", matching_value)  # Print the similarity score of the matched document
+
+# Print the document with the highest match 
+print(stadium_data_doc[index])  
+
+ # Print the similarity score of the matched document
+print("Similarity Score:", matching_value) 
