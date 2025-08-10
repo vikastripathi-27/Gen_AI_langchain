@@ -3,7 +3,7 @@ the script contains the use of prompt from an existing prompt template
 """
 
 from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain_core.prompts import PromptTemplate, load_prompt
+from langchain_core.prompts import load_prompt
 from dotenv import load_dotenv
 import streamlit as st
 
@@ -19,7 +19,7 @@ model = ChatGoogleGenerativeAI(
 st.title("Player profile")
 
 # taking input from user
-player_name = st.text_input("Enter the details of player you want to generate a report for:")
+name = st.text_input("Enter the details of player you want to generate a report for:")
 
 # Load the prompt from a JSON file
 # using an existing prompt template
@@ -27,7 +27,9 @@ usr_prompt = load_prompt('player_name_prompt.json')
 
 # storing the built prompt including the user inputs
 input = usr_prompt.invoke({
-    'player_name':player_name
+    #storing in form of dictionary incase of multiple inputs
+    #name is the variable which contain the user input
+    'player_name':name
     }
 )
 
