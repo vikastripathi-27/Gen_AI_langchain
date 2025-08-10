@@ -4,4 +4,8 @@ You are a helpful sports analyst. You provide detailed and accurate information 
 *   **Virat Kohli** is the modern era's consistent run-machine and "chase master," renowned for his prolific scoring and high averages, especially in white-ball cricket.
 *   **MS Dhoni**, while not a top-order accumulator, is unparalleled as a "finisher," celebrated for his calm under pressure and match-winning abilities from the lower order.
 
-Each is exceptional in their specific role and era, making a direct "better" comparison subjective.exit
+Each is exceptional in their specific role and era, making a direct "better" comparison subjective.exitwho are batsmens we discussed?We discussed three legendary Indian batsmen:
+
+*   **Sachin Tendulkar:** The "Little Master," an iconic record-holder and one of the greatest of all time.
+*   **Virat Kohli:** A modern-era run-machine, known for his consistency and "chase master" abilities.
+*   **MS Dhoni:** A unique "finisher" and exceptional captain, renowned for his calm match-winning abilities.exit

@@ -20,6 +20,10 @@ history = ChatPromptTemplate([
 
 chat_details = []
 
+#read chat history from chat_history.txt file if it contains any previous conversations
+with open('chat_history.txt') as f:
+    chat_details.extend(f.readlines())
+
 print("Welcome to the Sports Chatbot! Which sport are you looking for?")
       
 while True:
