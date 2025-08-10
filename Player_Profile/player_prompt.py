@@ -10,4 +10,4 @@ usr_prompt = PromptTemplate(
 )
 
 #for use of the same prompt in other scripts
-usr_prompt.save("Player_Profile/player_name_prompt.json")
+usr_prompt.save("player_name_prompt.json")

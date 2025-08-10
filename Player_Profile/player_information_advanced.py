@@ -29,7 +29,8 @@ usr_prompt = load_prompt('player_name_prompt.json')
 input = usr_prompt.invoke({
     #storing in form of dictionary incase of multiple inputs
     #name is the variable which contain the user input
-    'player_name':name
+    #provide same key and value
+    'name':name
     }
 )
 
