@@ -1,0 +1,15 @@
+{
+    "name": null,
+    "input_variables": [
+        "player_name"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\n        Generate a detailed player profile for {player_name}.\n        Include information such as career statistics, achievements, and notable performances.\n            ",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
