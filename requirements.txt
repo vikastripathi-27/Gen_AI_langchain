@@ -18,3 +18,6 @@ python-dotenv
 # Machine Learning Utilities
 numpy
 scikit-learn
+
+# chain graph
+grandalf
