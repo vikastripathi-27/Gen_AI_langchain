@@ -21,3 +21,6 @@ scikit-learn
 
 # chain graph
 grandalf
+
+# pdf loader
+pypdf
