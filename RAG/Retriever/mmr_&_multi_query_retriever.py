@@ -19,6 +19,8 @@ embedding_model = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
 
 vector_store = FAISS.from_documents(documents=doc,embedding=embedding_model)
 
+# Maximum marginal relevance retriever
+# retrievr output will vary from each other so we get diversity
 mmr_retriever = vector_store.as_retriever(
     search_type='mmr',
     search_krwgs={'k':5, 'lambda_mult': 0.5}
@@ -32,6 +34,7 @@ similarity_retriever = vector_store.as_retriever(
     search_kwargs={"k": 5}
 )
 
+# multiple queries to llm based on user query and then using the queries provided by llm, retrieving the best matches
 multi_query = vector_store.as_retriever(
     search_kwargs={"k": 5}
 )
