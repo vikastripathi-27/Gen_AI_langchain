@@ -24,3 +24,7 @@ grandalf
 
 # pdf loader
 pypdf
+
+# vector db
+chromadb
+tiktoken
