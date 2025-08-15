@@ -2,4 +2,4 @@
 .ipynb_checkpoints/
 sample_data/
 RAG/files/
-RAG/Vectors/Database/*
+RAG/Vectors/Database/

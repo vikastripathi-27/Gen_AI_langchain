@@ -4,7 +4,6 @@ from langchain_community.docstore.in_memory import InMemoryDocstore
 from langchain_community.vectorstores import FAISS
 from langchain_community.document_loaders import PyPDFLoader
 import faiss
-
 load_dotenv()
 
 # each page is loaded into one list index
