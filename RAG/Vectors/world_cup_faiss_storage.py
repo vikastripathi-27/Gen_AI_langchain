@@ -38,8 +38,8 @@ result = vector_store.docstore._dict.items()
 # View all documents
 for doc_id, doc in result:
     print(f"ID: {doc_id}")
-    print("Content:", doc.page_content)
-    print("Metadata:", doc.metadata)
+    print("Content: ", doc.page_content)
+    print("Metadata: ", doc.metadata)
     print("-" * 40)
 
 # search documents
